@@ -7,7 +7,7 @@ using System.Text;
  * Name: Tom Tsiliopoulos
  * Date: July 11, 2017
  * Description: This is the SuperHuman sub class.
- * Version: 0.2 - Added Private Initialize Method
+ * Version: 0.3 - Added Public AddPower Method
  */
 
 namespace COMP123_S2017_Lesson9A
@@ -49,5 +49,14 @@ namespace COMP123_S2017_Lesson9A
 
         // PUBLIC METHODS
 
+        /// <summary>
+        /// This method adds a Power to the Power List
+        /// </summary>
+        /// <param name="name"></param>
+        /// <param name="rank"></param>
+        public void AddPower(string name, int rank)
+        {
+            this.Powers.Add(new Power(name, rank));
+        }
     }
 }

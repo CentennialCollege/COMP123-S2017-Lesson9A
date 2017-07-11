@@ -18,7 +18,7 @@ namespace COMP123_S2017_Lesson9A
         static void Main(string[] args)
         {
             SuperHuman superHuman = new SuperHuman("Super Dude");
-            superHuman.Powers.Add(new Power());
+            superHuman.Powers.Add(new Power("Teleportation",50));
         }
     }
 }
