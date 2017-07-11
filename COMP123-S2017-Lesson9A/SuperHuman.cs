@@ -58,5 +58,13 @@ namespace COMP123_S2017_Lesson9A
         {
             this.Powers.Add(new Power(name, rank));
         }
+
+        public void DisplayPowers()
+        {
+            foreach (var power in Powers)
+            {
+                Console.WriteLine("Name: " + power.Name + " Rank: " + power.Rank);
+            }
+        }
     }
 }
