@@ -8,7 +8,7 @@ using System.Text;
  * Date: July 11, 2017
  * Description: This is the abstract class Human which other subclasses will
  * derive from.
- * Version: 0.1 - Class created
+ * Version: 0.2 - Added Public Abstract method DisplaySkills
  */
 
 
@@ -46,5 +46,9 @@ namespace COMP123_S2017_Lesson9A
         {
             this.Name = name;
         }
+
+        // PUBLIC ABSTRACT METHODS
+
+        public abstract void DisplaySkills();
     }
 }
