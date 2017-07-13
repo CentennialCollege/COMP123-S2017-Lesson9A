@@ -1,35 +1,35 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
   <Class Name="COMP123_S2017_Lesson9A.Human">
-    <Position X="2" Y="1" Width="2" />
+    <Position X="0.5" Y="1" Width="2" />
     <TypeIdentifier>
       <HashCode>AAAAIAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAIAAAAAAA=</HashCode>
       <FileName>Human.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="COMP123_S2017_Lesson9A.SuperHuman">
-    <Position X="4.5" Y="1" Width="2.25" />
+    <Position X="2.75" Y="1" Width="2.25" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAACAAAAAEAAAAIAAAAAAACAABAAAIAABAAAA=</HashCode>
       <FileName>SuperHuman.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="COMP123_S2017_Lesson9A.Power">
-    <Position X="7.5" Y="1" Width="1.5" />
+    <Position X="5.25" Y="1" Width="2.25" />
     <TypeIdentifier>
       <HashCode>AAABAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Power.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="COMP123_S2017_Lesson9A.Program">
-    <Position X="9.25" Y="1" Width="2" />
+    <Position X="8" Y="1" Width="2" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
       <FileName>Program.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="COMP123_S2017_Lesson9A.SuperHero">
-    <Position X="7.5" Y="3.5" Width="1.5" />
+    <Position X="5.25" Y="3" Width="2" />
     <TypeIdentifier>
       <HashCode>AAAAAAACAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>SuperHero.cs</FileName>
@@ -37,7 +37,7 @@
     <Lollipop Position="0.2" />
   </Class>
   <Interface Name="COMP123_S2017_Lesson9A.IHasKarma">
-    <Position X="9.25" Y="2.25" Width="2" />
+    <Position X="10.25" Y="1" Width="2" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>IHasKarma.cs</FileName>
