@@ -7,7 +7,7 @@ using System.Text;
  * Name: Tom Tsiliopoulos
  * Date: July 11, 2017
  * Description: This is the SuperHuman sub class.
- * Version: 0.3 - Added Public AddPower Method
+ * Version: 0.4 - Added Overridden method ToString
  */
 
 namespace COMP123_S2017_Lesson9A
@@ -66,5 +66,29 @@ namespace COMP123_S2017_Lesson9A
                 Console.WriteLine("Name: " + power.Name + " Rank: " + power.Rank);
             }
         }
+
+        /// <summary>
+        /// Overridden the built-in ToString method
+        /// </summary>
+        /// <returns>
+        /// string
+        /// </returns>
+        public override string ToString()
+        {
+            string outputString = "";
+            outputString += "=====================================\n";
+            outputString += "SuperHuman Name: " + this.Name + "\n";
+            outputString += "=====================================\n";
+
+            foreach (Power power in this.Powers)
+            {
+                outputString += "Power: " + power.Name + " Rank: " + power.Rank + "\n";
+            }
+
+            outputString += "=====================================\n";
+
+            return outputString;
+        }
+
     }
 }
