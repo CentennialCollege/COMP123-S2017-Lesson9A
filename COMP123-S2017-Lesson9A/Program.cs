@@ -8,7 +8,7 @@ using System.Threading.Tasks;
  * Name: Tom Tsiliopoulos
  * Date: July 11, 2017
  * Description: This is the driver class for my project
- * Version: 0.4 - Implemented the SuperHero class
+ * Version: 0.5 - Implemented the SuperVillain class
  */
 
 namespace COMP123_S2017_Lesson9A
@@ -23,6 +23,14 @@ namespace COMP123_S2017_Lesson9A
             superHero.Powers.Add(new Power("Invisibility", 30));
             Console.WriteLine(superHero.ToString());
             Console.WriteLine("Karma: " + superHero.Karma);
+            Console.WriteLine();
+
+            SuperVillain superVillain = new SuperVillain("SuperVillain Dude", 20);
+            superVillain.AddPower("Shadow Casting", 50);
+            superVillain.AddPower("Mind Control", 40);
+            superVillain.AddPower("Combat Senses", 30);
+            Console.WriteLine(superVillain.ToString());
+            Console.WriteLine("Malice: " + superVillain.Malice);
 
         }
     }
